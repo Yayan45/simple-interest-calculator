@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "Enter principal:"
+echo "Enter Principal:"
 read p
-echo "Enter rate of interest:"
+echo "Enter Rate:"
 read r
-echo "Enter time period:"
+echo "Enter Time:"
 read t
 
 si=$((p * r * t / 100))
